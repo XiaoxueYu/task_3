@@ -13,6 +13,7 @@ body{
     background-color: #eee;
     position: relative;
     min-width: 768px;
+
 }
 div{
     box-sizing:border-box;
@@ -28,7 +29,7 @@ div{
 #one img{
     width: 80px;
     height:80px;
-  float:left;
+    float:left;
 }
 
 #one span{
@@ -36,7 +37,7 @@ div{
 
 }
 #two{
-    
+    width:auto;
     margin-left: 220px;
     margin-right: 140px;
 
