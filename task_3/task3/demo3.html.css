@@ -1,0 +1,59 @@
+body{
+    padding: 20px;
+    margin: 0;
+    font-size: 14px;
+    font-family: serif;
+}
+#one,#two,#three,.content{
+    padding: 20px;
+    border: solid 1px #999;
+}
+.content{
+    overflow: auto;
+    background-color: #eee;
+    position: relative;
+    min-width: 768px;
+}
+
+.box{
+    background-color: #fff;
+}
+#one{
+    float: left;
+    width:200px;
+
+}
+#one img{
+    width: 80px;
+    height:80px;
+   padding:20px;
+}
+
+#one span{
+    float: right;
+    padding-top: 20px;
+}
+#two{
+    
+    margin-left: 220px;
+    margin-right: 140px;
+
+}
+
+#two p{
+    padding:10px;
+
+}
+#three{
+    float: right;
+    width:120px;
+
+
+}
+
+#three img{
+    margin: 10px 0;
+    width: 80px;
+    height:80px;
+}
+
