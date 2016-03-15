@@ -14,7 +14,9 @@ body{
     position: relative;
     min-width: 768px;
 }
-
+div{
+    box-sizing:border-box;
+}
 .box{
     background-color: #fff;
 }
@@ -26,12 +28,12 @@ body{
 #one img{
     width: 80px;
     height:80px;
-   padding:20px;
+  float:left;
 }
 
 #one span{
     float: right;
-    padding-top: 20px;
+
 }
 #two{
     
